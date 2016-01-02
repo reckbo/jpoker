@@ -1,3 +1,6 @@
+NB. Ported from subskybox's javascript algorithm
+NB. http://www.codeproject.com/Articles/569271/A-Poker-hand-analyzer-in-JavaScript-using-bit-math
+
 CATEGORY       =: '4 of a Kind';'Straight Flush';'Straight';'Flush';'High Card';'Pair';'2 Pair';'Royal Flush';'3 of a Kind';'Full House'
 FACES          =: '23456789TJQKA'
 rankFromChar   =: '**23456789TJQKA'&i.
